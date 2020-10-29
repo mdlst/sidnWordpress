@@ -1,0 +1,139 @@
+/*
+    Theme Name: Tema teknica
+    Theme URI: 
+    Author: Maria de los santos
+    Author URI: 
+    Description: Tema para Teknica
+    Version: 1.0
+    License: GNU General Public License v2 or later
+    License URI: 
+    Text Domain: teknica
+*/
+
+
+:root {
+    --primario: #f46669;
+    --secundario: #c7c57d;
+    --gris : #f5f5f5;
+}
+.degradado{
+    /* background: linear-gradient(deg, black, white);
+    height: 100%;
+    background-repeat: no-repeat;
+    background: url(../img/login-bg.JPG) no-repeat center center fixed;
+    background-size: 100% 100%; */
+}
+.header .nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #F7403A;
+
+}
+
+/* .nav-link.active {
+    color: #F7403A;
+    border-bottom: 2px solid #F7403A;
+} */
+.contacto {
+    border-radius: 4px solid;
+    border-color: #F7403A;
+    color:#F7403A;    
+}
+
+.footer {
+    border-bottom: 150px solid #4F4F4F;
+}
+
+.imagenPersonas1 {
+    /* background-color: white; */
+    background-image: url("img/fondoPersonas1.png");
+}
+
+/* BG */
+
+.form{ 
+    position: absolute;
+    left: 0px;
+    right: -1px;
+    top: 0px;
+    bottom: 0px;
+
+    background-color: #FFFFFF;
+    /* Sombra caja */
+    box-shadow: 0px 12px 26px rgba(28, 65, 84, 0.1);
+    border-radius: 10px black;
+}
+
+.letraPequeña {
+    /* Rellena el siguiente formulario para que podamos atender tus dudas: */
+
+left: 29px;
+right: 30px;
+top: 70px;
+bottom: 488px;
+
+/* Body / Regular */
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 161.49%;
+/* or 26px */
+
+/* Gray 2 */
+color: #4F4F4F;
+
+}
+
+.terminos {
+    /* He leído y acepto los términos de política de privacidad. */
+
+
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 158.5%;
+/* or 22px */
+
+/* 48% Gray */
+color: #858585;
+
+}
+
+.infor {
+    background-color: #F7403A;
+    border-radius: 10px;
+    border-color: #F7403A;
+}
+
+.infor:hover {
+    background-color: #F7403A;
+}
+
+.textoGrande {
+    /* Ahorra dinero, haciendo tu empresa más rentable y productiva. */
+
+/* position: absolute; */
+margin-top: 200px;
+width: 539px;
+height: 356px;
+/* left: 129px; */
+/* top: 516px; */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 111.1%;
+/* or 71px */
+/* display: flex;
+align-items: center; */
+
+/* Gray 2 */
+color: #4F4F4F;
+
+}
